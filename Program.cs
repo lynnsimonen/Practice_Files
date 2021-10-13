@@ -79,6 +79,7 @@ namespace Practice_Files
 
             //------------------------------------------------------------------------
 
+            // ToList();
             // given integer array 
             // { 10, 20, 30, 40, 50 }
             
@@ -98,7 +99,7 @@ namespace Practice_Files
             System.Console.WriteLine("\n");
 
         //----------------------------------------------------------------------------- 
-
+            // ToArray();
             // Step 1: create list.
             List<string> listNew = new List<string>();
             listNew.Add("one");
@@ -117,7 +118,22 @@ namespace Practice_Files
                 Console.WriteLine("Array received: " + array.Length);
             }
 
-    //-------------------------------------------------------------------------------------             
+            //-------------------------------------------------------------------------------------
+
+            string fruit = "Apple,Banana,Orange,Strawberry";
+            string[] split = fruit.Split(',');
+            foreach (string item in split)
+            {
+                System.Console.Write(item + " ");
+            } 
+
+
+
+
+
+
+
+
             
         }
     }
